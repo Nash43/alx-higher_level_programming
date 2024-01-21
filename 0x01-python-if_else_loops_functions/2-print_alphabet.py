@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-import string
+for i in range(ord('a'), ord('z') + 1):
+    print('{:c}'.format(i), end='')
 
-alphabet = string.ascii_lowercase
-
-for letter in alphabet:
-    print(letter, end='')
